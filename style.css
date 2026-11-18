@@ -1,0 +1,16 @@
+/* FABLE — Created by Mr T. */
+:root { color-scheme: light dark; }
+body { margin: 0; font: 17px/1.6 system-ui, "Segoe UI", sans-serif; background: #f6f2ea; color: #1d1b2c; }
+main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+h1 { font-family: Georgia, serif; font-size: 2.2rem; margin: 0 0 .25rem; }
+h2 { font-family: Georgia, serif; font-size: 1.25rem; margin: 2rem 0 .25rem; }
+.lead { color: #5b5870; margin-top: 0; }
+.foot { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d9d2c3; color: #5b5870; font-size: .9rem; }
+a { color: #a8380b; }
+code { font-size: .9em; }
+@media (prefers-color-scheme: dark) {
+  body { background: #14162b; color: #ece8df; }
+  .lead, .foot { color: #a9a6bd; }
+  .foot { border-color: #2f3152; }
+  a { color: #ffb066; }
+}
